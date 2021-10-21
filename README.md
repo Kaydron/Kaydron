@@ -1,16 +1,42 @@
-### Hi there 👋
+name: Feature request
+description: Suggest an idea for this project
+labels: ['enhancement']
+body:
+    - type: markdown
+      attributes:
+          value: |
+              **NOTICE:** Please use this form only for requesting features for the application itself.
 
-<!--
-**Kaydron/Kaydron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+              For general questions around Apex or Lightning Web Components use the existing channels:
 
-Here are some ideas to get you started:
+              - [Trailblazer Community - Lightning Web Components](https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F93A000000LlT2SAK)
+              - [Salesforce Stack Exchange](https://salesforce.stackexchange.com/)
+    - type: textarea
+      attributes:
+          label: Summary
+          description: A concise description of what's missing from the application.
+          placeholder: |
+              Ex. I'd like to see an implementation of [...]
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Suggested Solution
+          description: A concise description of what you want to happen.
+      validations:
+          required: false
+    - type: textarea
+      attributes:
+          label: Alternative Solutions
+          description: A concise description of any alternative solutions or features you've considered.
+      validations:
+          required: false
+    - type: checkboxes
+      id: terms
+      attributes:
+          label: Code of Conduct
+          description: By submitting this issue, you agree to follow our [Code of Conduct](../blob/main/CODE_OF_CONDUCT.md
+          options:
+              - label: I agree to follow this project's Code of Conduct
+                required: true
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
